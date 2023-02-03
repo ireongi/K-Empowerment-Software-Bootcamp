@@ -1,0 +1,20 @@
+#113p 연습문제
+
+1. 선형 리스트
+2. 1번(맨 뒤에 공간을 추가해야한다.)
+3. 4번 -> 2번 -> 3번 -> 1번
+4. katok.append(None)
+5. del(katok[len(katok)-1])
+6.
+    def add_data(friend) :
+        katok.append(None)
+        KLen = len(katok)
+        katok[kLen-1] = friend
+
+    # 더 나은 방식
+    def add_data(friend) :
+        katok.append(None)
+        katok[len(katok)-1] = friend
+
+7. 4번
+8. 4번
