@@ -1,0 +1,8 @@
+267p 연습문제
+
+1. 4번
+2. rear, en_queue, front, de_queue
+3. 1번(rear = (rear + 1) % 5) 2번(front = (front + 1) % 5)
+4. 2번
+5. 2번
+6. 1번(return None) 2번(return queue[(front + 1) % SIZE])

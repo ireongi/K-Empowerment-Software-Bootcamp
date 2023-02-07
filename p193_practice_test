@@ -1,0 +1,8 @@
+193p 연습 문제
+
+1. 3, 4번
+2. node1.link = node1
+3. 1번(node2), 2번(node3) 3번(node3)
+4. 2번
+5. 1번(current = head), 2번(last =last.link), 3번(last.link = head)
+6. 1번(return current), 2번(current.link != head), 3번(current = current.link)
