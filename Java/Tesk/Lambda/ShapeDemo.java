@@ -1,4 +1,4 @@
-package Java_Network.Tesk;
+package Java_Network.Tesk.Lambda;
 
 
 public class ShapeDemo {

@@ -1,4 +1,4 @@
-package Java_Network.Tesk;
+package Java_Network.Tesk.Lambda;
 
 import java.util.*;
 import java.util.function.BinaryOperator;
