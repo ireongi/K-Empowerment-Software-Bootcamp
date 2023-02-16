@@ -1,7 +1,5 @@
 package Java_Network.Tesk.Stream;
 
-package Java_Network.Tesk.Stream;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
