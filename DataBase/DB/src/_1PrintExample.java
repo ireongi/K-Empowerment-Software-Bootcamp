@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class JdbcExOne {
+public class _1PrintExample {
     public static void main(String[] args) {
         System.out.println("JDBC Start");
 

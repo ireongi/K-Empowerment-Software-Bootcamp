@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class Tesk {
+public class _2PrintTesk {
     public static void main(String[] args) {
         System.out.println("JDBC Start");
 
@@ -58,7 +58,9 @@ public class Tesk {
                 System.out.println(" | " + srs.getString("mDate"));
             else
                 System.out.println();
+            System.out.println();
         }//end of while(rs.next() )
+        System.out.println();
     }
 
         private  static void printData2(ResultSet srs, String col1, String col2, String col3, String col4, String col5, String col6) throws SQLException {
@@ -78,6 +80,7 @@ public class Tesk {
                     System.out.println(" | "+ srs.getInt("amount"));
                 else
                     System.out.println();
+                System.out.println();
             }
     }
 }
