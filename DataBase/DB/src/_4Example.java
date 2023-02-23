@@ -18,12 +18,16 @@ public class _4Example {
                 stmt = conn.createStatement();
                 printData(stmt);
 
-                //stmt.executeUpdate("Insert into student(name, id, dept) " +  "values('유재석', '0000000', '연극영화과');"); // MySQL에 데이터 추가
-                //System.out.println("\n[레코드 삽입 후]");
-                //printData(stmt);
+                stmt.executeUpdate("Insert into student(name, id, dept) " +  "values('유재석', '0000000', '연극영화과');"); // Insert : MySQL 데이터 추가
+                System.out.println("\n[레코드 삽입 후]");
+                printData(stmt);
 
                 System.out.println("\n[업데이트 후]");
-                stmt.executeUpdate("update student set dept= '체육학과'" + "where id = '3333333'");
+                stmt.executeUpdate("Update student set dept= '체육학과'" + "where id = '3333333';"); // Update : MySQL 데이터 변경
+                printData(stmt);
+
+                System.out.println("\n[삭제 후]");
+                stmt.executeUpdate("Delete from student where id = '0000000';"); // Delete : MySQL 데이터 삭제
                 printData(stmt);
             }
     } catch (ClassNotFoundException e) {System.out.println("[JDBC 드라이버 로드 오류]");
