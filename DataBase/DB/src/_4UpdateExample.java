@@ -1,7 +1,7 @@
 // Java에서 MySQL에 코드 추가하기
 import java.sql.*;
 
-public class _4Example {
+public class _4UpdateExample {
 
     public static void main(String[] args) {
         System.out.println("--- JDBC Start ---\n");
