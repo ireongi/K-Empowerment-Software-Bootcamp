@@ -44,7 +44,7 @@
           <database value="mysql" />
           <type value="USER_PASSWORD" />
           <user value="root" />
-          <deprecated-pwd value="ZG5nbmdudDAxMA==" />
+          <deprecated-pwd value="bXlzcWwxMjM=" />
         </database>
         <properties>
           <auto-commit value="false" />
@@ -516,5 +516,8 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
   </component>
 </project>

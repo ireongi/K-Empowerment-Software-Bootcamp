@@ -12,7 +12,7 @@ public class _4UpdateExample {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + "sampledb?useSSL=" + "false&serverTimeZone=Asia/Seoul",
-                    "root", "dngngnt010");
+                    "root", "mysql123");
             if (conn != null){
                 System.out.println("[DB 연결 완료]");
                 stmt = conn.createStatement();
