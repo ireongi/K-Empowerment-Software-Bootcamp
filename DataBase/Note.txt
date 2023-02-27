@@ -2,7 +2,6 @@
 데이터베이스 기초
 
 
-Day1
 
 1) MySQL 및 Bench 설치
 
@@ -26,13 +25,7 @@ Day1
    Schemas 생성 명령어 : create database + 이름
 
 
-Day2
-
-1) 이론
-
-2) Code
-   
-   Table 생성 명렁어 : create table + 이름 ( 
+   Table 생성 명렁어 : create table + 이름 
      
        
 

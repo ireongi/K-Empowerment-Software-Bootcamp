@@ -1,0 +1,49 @@
+SQL Basic code
+
+
+1) SELECT : 표 모두(*) 선택
+
+	SELECT * FROM celebs;
+ 
+2) CREATE TABLE : 표 생성 
+
+	 CREATE TABLE celebs (
+ 	  id INTEGER,
+ 	  name TEXT,
+ 	  age INTEGER
+	 );
+
+3) INSERT INTO : 행 내용 추가 
+
+	INSERT INTO celebs (id, name, age) 
+	VALUES (1, 'Justin Bieber', 22);
+
+4) ALTER TABLE : 열 틀 추가 
+
+	ALTER TABLE celebs 
+	ADD COLUMN twitter_handle TEXT;
+
+5) UPDATE : 원하는 위치에 데이터 추가하기 
+
+	UPDATE celebs 
+	SET twitter_handle = '@taylorswift13' 
+	WHERE id = 4; 
+ 
+	SELECT * FROM celebs;
+
+6) DELETE FROM : 원하는 데이터 지우기 
+
+	DELETE FROM celebs
+	WHERE twitter_handle IS NULL;
+
+	SELECT * FROM celebs;
+
+7) AS : 조건값 제목 행 생성
+
+	select maker, 
+	avg(price) AS 평균, 
+	sum(price) AS 합계, 
+	count(*) AS 레코드개수
+
+
+
